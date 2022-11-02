@@ -1,6 +1,9 @@
+import Navbar from "../components/navbar";
+
 export default function Home() {
   return (
     <>
+      <Navbar />
       <div className="container-fluid vh-100 bg-dark">
         <div className="position-absolute top-50 start-50 translate-middle text-light">
           <h2>Welcome To My Portofolio !</h2>
