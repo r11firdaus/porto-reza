@@ -1,4 +1,4 @@
-const AboutMe = () => {
+const AboutMe = (): JSX.Element => {
   return (
     <div className="container-fluid vh-100 bg-dark text-light pt-5">
         <figure className="text-center">

@@ -11,7 +11,7 @@ const Navbar = (): JSX.Element => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">Home</a>
+              <Link className="nav-link active" aria-current="page" href="/">Home</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/about-me">About Me</Link>
@@ -21,10 +21,10 @@ const Navbar = (): JSX.Element => {
                 Menu
               </a>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Portofolio</a></li>
-                <li><a className="dropdown-item" href="#">CV</a></li>
+                <li><Link className="dropdown-item" href="#">Portofolio</Link></li>
+                <li><Link className="dropdown-item" href="#">CV</Link></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="#">Contact me</a></li>
+                <li><Link className="dropdown-item" href="#">Contact me</Link></li>
               </ul>
             </li>
             <li className="nav-item">
@@ -32,8 +32,8 @@ const Navbar = (): JSX.Element => {
             </li>
           </ul>
           <form className="d-flex" role="search">
-            <input className="form-control me-2 bg-dark" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-success" type="submit">Search</button>
+            <input className="form-control me-2 text-light bg-dark" type="search" placeholder="Search" aria-label="Search" />
+            <Link href='#' className="btn btn-outline-success" type="submit">Search</Link>
           </form>
         </div>
       </div>
