@@ -23,8 +23,8 @@ const SearchBar = (): JSX.Element => {
             autoFocus
           />
       </div>
-          {result.map((e: string) => (
-            <Link href={`/search/result?query=${e}`}>
+          {result.length > 0 && result.map((e: string) => (
+            <Link href={{pathname: '/search/result', query: {q: e, fullsearch: 'true'}}}>
               <div className="card">
                 <div className="card-body bg-dark text-light">{e}</div>
               </div>
