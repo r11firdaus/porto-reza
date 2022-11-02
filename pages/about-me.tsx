@@ -1,6 +1,10 @@
+import Navbar from "../components/navbar"
+
 const AboutMe = (): JSX.Element => {
   return (
-    <div className="container-fluid vh-100 bg-dark text-light pt-5">
+    <>
+      <Navbar />
+      <div className="container-fluid vh-100 bg-dark text-light pt-5">
         <figure className="text-center">
           <blockquote className="blockquote">
             <p>An experienced fulstack developer with more than one technology.</p>
@@ -25,7 +29,8 @@ const AboutMe = (): JSX.Element => {
           <p>MySQL</p>
           <p>Postgresql</p>
         </div>
-    </div>
+      </div>
+    </>
   )
 }
 

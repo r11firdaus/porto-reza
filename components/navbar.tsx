@@ -1,10 +1,12 @@
 import Link from "next/link"
+import { useRouter } from "next/router"
 
 const Navbar = (): JSX.Element => {
+  const router = useRouter()
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{'zIndex': 1}}>
       <div className="container-fluid">
-        {/* <a className="navbar-brand" href="#">Navbar</a> */}
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -32,8 +34,8 @@ const Navbar = (): JSX.Element => {
             </li>
           </ul>
           <form className="d-flex" role="search">
-            <input className="form-control me-2 text-light bg-dark" type="search" placeholder="Search" aria-label="Search" />
-            <Link href='#' className="btn btn-outline-success" type="submit">Search</Link>
+            <input className="form-control me-2 bg-dark disabled" onClick={() => router.push('/search')} type="search" placeholder="Search" aria-label="Search" />
+            {/* <Link href='#' className="btn btn-outline-success" type="submit">Search</Link> */}
           </form>
         </div>
       </div>
