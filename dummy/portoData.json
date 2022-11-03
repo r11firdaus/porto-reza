@@ -1,0 +1,22 @@
+[
+  {
+    "title": "E-commerce",
+    "desc": "Build e-commerce with live chat feature using Next JS, websocket, Express JS, and Postgresql",
+    "url": "https://jwallin.vercel.app"
+  },
+  {
+    "title": "Blog",
+    "desc": "Simple blog with image, title and description",
+    "url": "https://warm-fortress-73594.herokuapp.com/"
+  },
+  {
+    "title": "Blog with pdf and excel",
+    "desc": "Create blog with Ruby on Rails. Admin are able to export data to excel and pdf",
+    "url": "https://secure-coast-07934.herokuapp.com/"
+  },
+  {
+    "title": "Food Recipe",
+    "desc": "Food recipe app that can find recipe, food by country, category, and source video",
+    "url": "https://r11firdaus.github.io/wtfood"
+  }
+]
