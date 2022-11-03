@@ -2,7 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: false,
-  basePath: '/porto-reza'
+  basePath: '/porto-reza',
+  images: {
+    domains: ['upload.wikimedia.org'],
+  },
 }
 
 module.exports = nextConfig
