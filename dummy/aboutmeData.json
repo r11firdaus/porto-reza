@@ -1,0 +1,22 @@
+{
+  "header": "All my projects using React, Next JS, Ruby on Rails, etc.",
+  "name": "Reza Firdaus",
+  "tech_stack": ["React", "Next JS", "Ruby on Rails", "PHP", "JQuery", "Express JS", "MySQL", "Postgresql"],
+  "socmed": [
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/reza-firdaus-2443b5174/",
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/r11firdaus",
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+    },
+    {
+      "name": "gitlab",
+      "url": "https://gitlab.com/r11firdaus",
+      "imgurl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/GitLab_logo.svg"
+    }
+  ]
+}

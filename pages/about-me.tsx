@@ -1,33 +1,41 @@
+import Image from "next/image"
 import Navbar from "../components/navbar"
+import aboutMedata from "../dummy/aboutmeData.json"
+
+interface SocmedType {
+  name: string,
+  imgurl: string,
+  url: string,
+}
 
 const AboutMe = (): JSX.Element => {
   return (
     <>
       <Navbar />
-      <div className="container-fluid vh-100 bg-dark text-light pt-5">
+      <div className="container-fluid bg-dark text-light pt-5">
         <figure className="text-center">
           <blockquote className="blockquote">
-            <p>An experienced fulstack developer with more than one technology.</p>
+            <p>{aboutMedata.header}</p>
           </blockquote>
           <figcaption className="blockquote-footer">
-            <cite title="Source Title">Reza Firdaus</cite>
+            <cite title="Source Title">{aboutMedata.name}</cite>
           </figcaption>
-        </figure>
+        </figure><br /><br /><br /><br />
 
-        <br />
-        <br />
-        <br />
-        <br />
         <div className="text-center">
           <h4>Tech Stack</h4><br />
-          <p>React</p>
-          <p>Next JS</p>
-          <p>Ruby on Rails</p>
-          <p>PHP</p>
-          <p>JQuery</p>
-          <p>Express JS</p>
-          <p>MySQL</p>
-          <p>Postgresql</p>
+          {aboutMedata.tech_stack.map((tech: string) => (
+            <p>{tech}</p>
+          ))}
+        </div><br /><br /><br /><br />
+
+        <div className="pb-2 text-center">
+          <h5>Find me on social media</h5>
+          <div className="d-flex justify-content-center mt-3">
+            {aboutMedata.socmed.map((soc: SocmedType) => (
+                <Image src={soc.imgurl} onClick={() => window.open(soc.url)} alt={soc.name} width={60} height={25} />
+            ))}
+          </div>
         </div>
       </div>
     </>
