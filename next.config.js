@@ -5,6 +5,7 @@ const nextConfig = {
   basePath: '/porto-reza',
   images: {
     domains: ['upload.wikimedia.org'],
+    unoptimized: true
   },
 }
 
