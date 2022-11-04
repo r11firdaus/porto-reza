@@ -1,0 +1,18 @@
+{
+  "experience": [
+    {
+      "position": "Web Developer",
+      "start_date": "December 2022",
+      "end_date": "July 2022",
+      "company": "PT. Walden Global Service",
+      "detail": "Build Web for E-learning, and System Management for FMCG company (access right, recipe management, approval, etc.)"
+    },
+    {
+      "position": "Web Developer Intern",
+      "start_date": "August 2021",
+      "end_date": "December 2021",
+      "company": "PT. Walden Global Service",
+      "detail": "Build Web for company profile (including CMS with Ruby on Rails)"
+    }
+  ]
+}
