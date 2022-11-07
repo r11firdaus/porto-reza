@@ -3,7 +3,7 @@ import cvData from "../dummy/cv.json"
 
 const Cv = (): JSX.Element => {
   return (
-    <div className="bg-dark text-light px-2">
+    <div className="text-light px-2">
       <Navbar />
       {/* Experience */}
       <section className="resume-section" id="experience">

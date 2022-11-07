@@ -2,9 +2,8 @@ import Navbar from "../components/navbar"
 import portoData from "../dummy/portoData.json"
 
 const Portofolio = (): JSX.Element => {
-  
   return (
-    <div className="bg-dark">
+    <div>
       <Navbar /><br /><br /><br /><br /><br /><br />
       <figure className="text-center text-light">
         <blockquote className="blockquote">

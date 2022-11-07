@@ -5,7 +5,7 @@ const Navbar = (): JSX.Element => {
   const router = useRouter()
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{'zIndex': 1}}>
+    <nav className="navbar navbar-expand-lg navbar-dark" style={{'zIndex': 1}}>
       <div className="container-fluid">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@ const Navbar = (): JSX.Element => {
                 <li><Link className="dropdown-item" href="/portofolio">Portofolio</Link></li>
                 <li><Link className="dropdown-item" href="/cv">CV</Link></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><Link className="dropdown-item" href="#">Contact me</Link></li>
+                <li><Link className="dropdown-item" href="/contact-me">Contact me</Link></li>
               </ul>
             </li>
             <li className="nav-item">
