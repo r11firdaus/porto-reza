@@ -1,4 +1,5 @@
 {
+  "pdf_link": "https://drive.google.com/file/d/1p250-7aFqDYgineC-qR4L_hxMmWEczhJ/view?usp=sharing",
   "experience": [
     {
       "position": "Web Developer",
@@ -13,6 +14,29 @@
       "end_date": "December 2021",
       "company": "PT. Walden Global Service",
       "detail": "Build Web for company profile (including CMS with Ruby on Rails)"
+    }
+  ],
+  "education": [
+    {
+      "level": "Senior High School",
+      "start_date": "2013",
+      "end_date": "2016",
+      "company": "SMK PGRI 1 Cimahi",
+      "detail": "Certified as software developer. Also has WJEPT (English certificate)."
+    },
+    {
+      "level": "Junior High School",
+      "start_date": "2010",
+      "end_date": "2013",
+      "company": "SMPN 5 Cimahi",
+      "detail": ""
+    },
+    {
+      "level": "Elementary School",
+      "start_date": "2004",
+      "end_date": "2010",
+      "company": "SDIT Uswatun Hasanah" ,
+      "detail": ""
     }
   ]
 }
