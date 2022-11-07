@@ -9,8 +9,8 @@ const Cv = (): JSX.Element => {
       <section className="resume-section" id="experience">
         <div className="resume-section-content">
           <h3 className="mb-5"><i><b>Experience</b></i></h3>
-          {cvData.experience.map((cv) => (
-            <div className="d-flex flex-column flex-md-row justify-content-between mb-3">
+          {cvData.experience.map((cv, i) => (
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-3" key={i}>
               <div className="flex-grow-1">
                   <h5 className="mb-0">{cv.position}</h5>
                   <div className="subheading mb-2 text-secondary">{cv.company}</div>
@@ -26,8 +26,8 @@ const Cv = (): JSX.Element => {
       <section className="resume-section" id="education">
         <div className="resume-section-content">
           <h3 className="mb-5"><i><b>Education</b></i></h3>
-          {cvData.education.map((cv) => (
-            <div className="d-flex flex-column flex-md-row justify-content-between mb-3">
+          {cvData.education.map((cv, i) => (
+            <div className="d-flex flex-column flex-md-row justify-content-between mb-3" key={i}>
               <div className="flex-grow-1">
                   <h5 className="mb-0">{cv.level}</h5>
                   <div className="subheading mb-2 text-secondary">{cv.company}</div>

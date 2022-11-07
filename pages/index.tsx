@@ -8,7 +8,7 @@ export default function Home() {
         <div className="position-absolute top-50 start-50 translate-middle text-light">
           <h2>Welcome To My Portofolio !</h2>
           <p>You can see all my projects and my CV. Press button below to explore.</p>
-          <button type="button" className="btn btn-success">Click Here</button>
+          {/* <button type="button" className="btn btn-success">Click Here</button> */}
         </div>
 
         {/* <div className="position-absolute top-100 start-50 translate-middle text-light">

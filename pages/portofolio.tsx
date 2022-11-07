@@ -13,8 +13,8 @@ const Portofolio = (): JSX.Element => {
       </figure><br /><br /><br /><br /><br /><br />
 
       <div className="row mx-2">
-        {portoData.map(e => (
-          <div className="col-12 col-md-6 py-1 px-1">
+        {portoData.map((e, i) => (
+          <div className="col-12 col-md-6 py-1 px-1" key={i}>
             <div className="card bg-dark text-light">
               <div className="card-body">
                 <h4 className="card-title">{e.title}</h4>
