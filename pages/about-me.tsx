@@ -12,7 +12,7 @@ const AboutMe = (): JSX.Element => {
   return (
     <>
       <Navbar />
-      <div className="container-fluid bg-dark text-light pt-5">
+      <div className="container-fluid text-light pt-5">
         <figure className="text-center">
           <blockquote className="blockquote">
             <p>{aboutMedata.header}</p>

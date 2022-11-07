@@ -9,7 +9,7 @@ import contact from "../dummy/contact.json"
 
 const ContactMe = ():JSX.Element => {
   return (
-    <div className="bg-dark text-light">
+    <div className="text-light">
       <Navbar />
       <h3 className="mt-5 mx-3">Contacts</h3>
       <section className="resume-section" id="experience">
