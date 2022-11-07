@@ -3,7 +3,7 @@ import Navbar from "../components/navbar";
 export default function Home() {
   return (
     <>
-      <div className="container-fluid vh-100 bg-dark">
+      <div className="container-fluid bg-dark">
         <Navbar />
         <div className="position-absolute top-50 start-50 translate-middle text-light">
           <h2>Welcome To My Portofolio !</h2>
