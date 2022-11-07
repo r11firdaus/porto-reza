@@ -34,15 +34,15 @@
     },
     {
       "key": "contact",
-      "url": ""
+      "url": "/contact-me"
     },
     {
       "key": "email",
-      "url": ""
+      "url": "/contact-me"
     },
     {
       "key": "phone",
-      "url": ""
+      "url": "/contact-me"
     }
   ]
 }

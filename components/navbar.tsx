@@ -26,7 +26,7 @@ const Navbar = (): JSX.Element => {
                 <li><Link className="dropdown-item" href="/portofolio">Portofolio</Link></li>
                 <li><Link className="dropdown-item" href="/cv">CV</Link></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><Link className="dropdown-item" href="#">Contact me</Link></li>
+                <li><Link className="dropdown-item" href="/contact-me">Contact me</Link></li>
               </ul>
             </li>
             <li className="nav-item">
