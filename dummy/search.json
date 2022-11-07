@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "key": "portofolio",
+      "url": "/portofolio"
+    },
+    {
+      "key": "about me",
+      "url": "/about-me"
+    },
+    {
+      "key": "tech stack",
+      "url": "/about-me#tech_stack"
+    },
+    {
+      "key": "social media",
+      "url": "/about-me#social_media"
+    },
+    {
+      "key": "cv",
+      "url": "/cv"
+    },
+    {
+      "key": "experience",
+      "url": "/cv#experience"
+    },
+    {
+      "key": "education",
+      "url": "/cv#education"
+    },
+    {
+      "key": "pdf link",
+      "url": "/cv#pdf_link"
+    },
+    {
+      "key": "contact",
+      "url": ""
+    },
+    {
+      "key": "email",
+      "url": ""
+    },
+    {
+      "key": "phone",
+      "url": ""
+    }
+  ]
+}

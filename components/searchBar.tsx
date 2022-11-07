@@ -1,15 +1,20 @@
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { useState } from "react"
+import data from "../dummy/search.json"
+
+type searchType = {
+  key: string,
+  url: string
+}
 
 const SearchBar = (): JSX.Element => {
-  const [result, setResult] = useState([])
+  const [result, setResult] = useState<searchType[]>([])
   const router = useRouter()
   
   const autoComplete = (text: string) => {
-    const data = ['reza', 'firdaus', 'wooow', 'reza firdaus']
-    let resData:any = []
-    text.trim() !== '' && data.map((e) => e.includes(text) && resData.push(e))
+    let resData:searchType[] = []
+    text.trim() !== '' && data.data.map((e: searchType) => e.key.toLowerCase().includes(text.toLowerCase()) && resData.push(e))
     setResult(resData)
   }
 
@@ -25,10 +30,11 @@ const SearchBar = (): JSX.Element => {
             autoFocus
           />
       </div>
-          {result.length > 0 && result.map((e: string) => (
-            <Link href={{pathname: '/search/result', query: {q: e, fullsearch: 'true'}}}>
+          {result.length > 0 && result.map((e: searchType, i) => (
+            // <Link href={{pathname: e.url, query: {q: e.key, fullsearch: 'true'}}} key={i}>
+            <Link href={e.url} key={i}>
               <div className="card">
-                <div className="card-body bg-dark text-light">{e}</div>
+                <div className="card-body bg-dark text-light">{e.key}</div>
               </div>
             </Link>
           ))}

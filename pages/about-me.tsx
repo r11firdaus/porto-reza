@@ -22,7 +22,7 @@ const AboutMe = (): JSX.Element => {
           </figcaption>
         </figure><br /><br /><br /><br />
 
-        <div className="text-center">
+        <div className="text-center" id="tech_stack">
           <h4>Tech Stack</h4><br />
           {aboutMedata.tech_stack.map((tech: string) => (
             <p>{tech}</p>
@@ -31,7 +31,7 @@ const AboutMe = (): JSX.Element => {
 
         <div className="pb-2 text-center">
           <h5>Find me on social media</h5>
-          <div className="d-flex justify-content-center mt-3">
+          <div className="d-flex justify-content-center mt-3" id="social_media">
             {aboutMedata.socmed.map((soc: SocmedType) => (
                 <Image src={soc.imgurl} onClick={() => window.open(soc.url)} alt={soc.name} width={60} height={25} />
             ))}
