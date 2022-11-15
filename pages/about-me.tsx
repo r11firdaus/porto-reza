@@ -1,3 +1,4 @@
+import Head from "next/head"
 import Image from "next/image"
 import Navbar from "../components/navbar"
 import aboutMedata from "../dummy/aboutmeData.json"
@@ -11,6 +12,12 @@ interface SocmedType {
 const AboutMe = (): JSX.Element => {
   return (
     <>
+      <Head>
+        <title>About Reza</title>
+        <meta name="description" content="Social media and tech stack used by Reza Firdaus" />
+        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="professional programmer, programmer, fullstack, frontend, experienced programmer, rails, react" />
+      </Head>
       <Navbar />
       <div className="container-fluid text-light pt-5">
         <figure className="text-center">

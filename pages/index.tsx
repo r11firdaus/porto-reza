@@ -1,8 +1,15 @@
+import Head from "next/head";
 import Navbar from "../components/navbar";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Reza's Portofolio</title>
+        <meta name="description" content="Reza Firdaus portofolio, cv, and projects with various technology" />
+        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="professional programmer, programmer, fullstack, frontend, experienced programmer, rails, react" />
+      </Head>
       <div className="container-fluid">
         <Navbar />
         <div className="position-absolute top-50 start-50 translate-middle text-light">
