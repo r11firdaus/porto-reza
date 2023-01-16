@@ -18,5 +18,10 @@
     "title": "Food Recipe",
     "desc": "Food recipe app that can find recipe, food by country, category, and source video",
     "url": "https://r11firdaus.github.io/wtfood"
+  },
+  {
+    "title": "Social Media",
+    "desc": "Social media with live chat, live comment, profile picture (soon)",
+    "url": "https://socmednextts.vercel.app/"
   }
 ]
